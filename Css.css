@@ -1,0 +1,340 @@
+.fundo
+{
+    background-color:rgb(63, 63, 63);
+}
+
+.titulo
+{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: gray;
+    text-align: center;
+    display: flex;
+
+    flex-direction: column;
+    border: black solid;
+    font-size: 2.2vw;
+    box-shadow: 5px 5px 5px #ad00e9;
+}
+
+.zoom:hover
+{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(0.9); 
+
+}
+
+.pergunta
+{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: rgb(255, 106, 106);
+    text-align: center;
+    border: black solid;
+    font-size: 1.7vw;
+
+    margin: 10px;
+    box-shadow: 5px 5px 5px #ad00e9;
+    border-radius: 20px;
+}
+
+.resposta
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: black solid;
+    font-size: 2.2vw;
+    width: 98.5%;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eeff00;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.r
+{
+    transition: transform 1s; 
+}
+
+
+
+/* caixa das perguntas */
+.pergunta1
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #7bff00;
+    height: auto;
+}
+
+.pergunta2
+{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    border-radius: 20px;
+    top: 100%;
+    box-shadow: 5px 5px 5px #7bff00;
+    height: auto;
+}
+
+.pergunta3
+{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    border-radius: 20px;
+    top: 153%;
+    box-shadow: 5px 5px 5px #7bff00;
+    height: auto;
+}
+
+.pergunta4
+{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    border-radius: 20px;
+    top: 206%;
+    box-shadow: 5px 5px 5px #7bff00;
+    height: auto;
+}
+
+.pergunta5
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    border: black solid;
+    border-radius: 20px;
+    top: 259%;
+    box-shadow: 5px 5px 5px #7bff00;
+    height: 40%;
+}
+/*------*/
+.rolagem
+{
+    background: #97faa4;
+    color: red;
+    cursor: pointer;
+}
+
+.final
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.6vw;
+    left: 50%;
+    font-size: 1.6vw;
+    top: 89%;
+}
+
+.textoresetar
+{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    border-radius: 15px;
+    border: black solid;
+    min-width: 100px;
+    font-size: 2.5vw;
+    top:0%;
+    right: 0%;
+    position: fixed;
+}
+
+.textoresultado
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    border: black solid;
+    margin: auto;
+    font-size: 2.2vw;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #15ff00;
+    font-family: 'Playfair Display', serif;
+    transition: transform 1s; 
+}
+
+.caixaresult
+{
+    border-radius: 25px;
+    width: 40%;
+    background-color: #fff;
+    position: absolute;
+    align-items: center;
+    margin: auto;
+    left: 30%;
+}
+
+.caixaresult_naosei
+{
+    border-radius: 25px;
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.conclusao
+{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 2.5vw;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+.p_resultado
+{
+    font-family: 'Fleur De Leah', cursive;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+}
+
+.nsei
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+}
+
+.gif
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: auto;
+}
+
+input
+{
+    cursor: pointer;
+}
+
+/*CONTATO*/
+.contato
+{
+    position: fixed;
+    min-width: 150px;
+    background-color: white;
+    border-radius: 15px;
+    top: 0%;
+    left: 0%;
+    display: flex;
+}
+
+.criador
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    text-align: center;
+}
+
+.linkedin
+{
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    font-size: x-large;
+    display: flex;
+    margin-left: 10px;
+    text-align: right;
+    flex-direction:row;
+    text-decoration:solid;
+}
+
+.instagram
+{
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    font-size: x-large;
+    text-align: right;
+    text-decoration:solid;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.final
+{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+
+@media (min-width: 390px) and (max-width: 600px){
+    .titulo{
+        font-size: 6.5vw;
+    }
+    .pergunta{
+        font-size: 6vw;
+    }
+    .resposta{
+        font-size: 6vw;
+    }
+    .rolagem{
+        margin: auto;
+    }
+    .final{
+        font-size: 6vw;
+    }
+    .conclusao{
+        font-size: 6vw;
+    }
+    .caixaresult_naosei{
+        width: 65%;
+    }
+    .nsei{
+        font-size: 6vw;
+    }
+    .p_resultado{
+        font-size: 6vw;
+    }
+    .caixaresult{
+        width: 100%;
+        left: 0%;
+    }
+    .textoresultado{
+        font-size: 6vw;
+    }
+    .textoresetar{
+        font-size: 6vw;
+    }
+    .titulo{
+        padding: 20px;
+    }
+    #r2_2{
+        font-size:5vw;
+    }
+    #r2_1{
+        font-size: 5vw;
+    }
+}
