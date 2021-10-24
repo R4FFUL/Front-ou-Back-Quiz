@@ -7,7 +7,7 @@ Linguagens utilizadas:
 - HTML
 - CSS
 
-Com este projeto pude aprender treinar manipulaçao de DOM utilizando javascript e aprimorar bastante meus conhecimentos em CSS deixando o site responsivo para versões mobile e diversos tamanhos de monitores. Tambem aprendi a administrar o site utilizando sistema de hospedagem (LocalWeb) e comprar um dominio (Registro.br)
+Com este projeto pude treinar manipulaçao de DOM utilizando javascript e aprimorar bastante meus conhecimentos em CSS deixando o site responsivo para versões mobile e diversos tamanhos de monitores. Tambem aprendi a administrar o site utilizando sistema de hospedagem (LocalWeb) e comprar um dominio (Registro.br)
 
 Link para acessar o site: https://frontouback.com.br/
 
